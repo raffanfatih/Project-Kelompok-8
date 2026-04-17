@@ -75,7 +75,7 @@ def hapus_kontak():
         del buku_telepon[nama] 
         print(f"Kontak '{nama}' dihapus dari memori (Pilih menu 6 untuk simpan permanen!).") 
     else: 
-        print(f" Kontak '{nama}' tidak ditemukan.") 
+        print(f"Kontak '{nama}' tidak ditemukan.") 
 
 # ==========================================
 # PROGRAM UTAMA (MAIN LOOP)
@@ -107,7 +107,7 @@ def main():
         elif pilihan == '6': 
             simpan_data(buku_telepon) 
         elif pilihan == '7': 
-            print(" Keluar aplikasi. Pastikan kamu sudah menyimpan datamu!") 
+            print("Keluar aplikasi. Pastikan kamu sudah menyimpan datamu!") 
             break 
         else: 
             print("Pilihan tidak valid! Silakan pilih angka 1-7.")

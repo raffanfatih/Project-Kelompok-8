@@ -21,7 +21,7 @@ def simpan_data(data):
 
     data_terurut = dict(sorted(data.items()))
 
-    with open(NAMA_FILE, 'w') as file: 
+    with open(NAMA_FILE, 'w', encoding="utf-8") as file: 
         for nama, nomor in data_terurut.items():
             # Menulis format "Nama,Nomor" ke dalam file TXT
             file.write(f"{nama},{nomor}\n") 

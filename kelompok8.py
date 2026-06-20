@@ -13,7 +13,7 @@ def quickSort(data):
 
 def quickSortHelper(data, first, last):
     if first < last:
-        # Mencari titik pisah (splitpoint) menggunakan fungsi partition
+        # Mencari titik pisah atau splitpoint menggunakan fungsi partition
         splitpoint = partition(data, first, last)
         
         # Mengurutkan bagian kiri dari splitpoint secara rekursif
@@ -22,7 +22,7 @@ def quickSortHelper(data, first, last):
         quickSortHelper(data, splitpoint+1, last)
 
 def partition(data, first, last):
-    # Patokan (acuan) diambil dari "Nama" pada elemen indeks pertama
+    # Patokan atau acuan diambil dari "Nama" pada elemen indeks pertama
     # data[first] adalah tuple ('Nama', 'Nomor'), jadi kita ambil [0]-nya
     acuan = data[first][0]
 

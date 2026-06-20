@@ -48,7 +48,7 @@ def partition(data, first, last):
             data[leftmark] = data[rightmark]
             data[rightmark] = temp
 
-    # Kembalikan elemen acuan ke posisi tengah yang tepat (di rightmark)
+    # Kembalikan elemen acuan ke posisi tengah yang tepat di rightmark
     temp = data[first]
     data[first] = data[rightmark]
     data[rightmark] = temp

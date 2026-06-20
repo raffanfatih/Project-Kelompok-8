@@ -61,7 +61,7 @@ def partition(data, first, last):
 
 def muat_data():
     data = {}
-    # Mengecek apakah file TXT sudah ada sebelumnya
+    # Mengecek apakah file .txt sudah ada sebelumnya
     if os.path.exists(NAMA_FILE): 
         # Membuka file mode 'r' (read) untuk membaca data
         with open(NAMA_FILE, 'r') as file:
@@ -75,7 +75,7 @@ def muat_data():
 def simpan_data(data):
     list_kontak = list(data.items())
     
-    # Memanggil fungsi quick sort (data list_kontak akan langsung terurut secara otomatis)
+    # Memanggil fungsi quick sort dimana data list_kontak akan langsung terurut secara otomatis
     quickSort(list_kontak)
     
     with open(NAMA_FILE, 'w') as file: 

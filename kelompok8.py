@@ -7,19 +7,6 @@ NAMA_FILE = 'kontak.txt'
 # FUNGSI ALGORITMA PENGURUTAN (QUICK SORT)
 # ==========================================
 
-def quickSort(data):
-    # Memanggil fungsi dengan indeks awal 0 dan indeks akhir
-    quickSortHelper(data, 0, len(data)-1)
-
-def quickSortHelper(data, first, last):
-    if first < last:
-        # Mencari titik pisah (splitpoint) menggunakan fungsi partition
-        splitpoint = partition(data, first, last)
-        
-        # Mengurutkan bagian kiri dari splitpoint secara rekursif
-        quickSortHelper(data, first, splitpoint-1)
-        # Mengurutkan bagian kanan dari splitpoint secara rekursif
-        quickSortHelper(data, splitpoint+1, last)
 
 def partition(data, first, last):
     # Patokan (acuan) diambil dari "Nama" pada elemen indeks pertama

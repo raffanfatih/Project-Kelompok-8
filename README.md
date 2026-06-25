@@ -12,7 +12,7 @@ Menggunakan tiga tipe stuktur data:
 2. List
 3. Tuple
 
-## Team Project
+## Anggota
 1. Aulia Rezki Rahman  
 2. Ivan Farel Aditya
 3. Raffan Fatih Zulfan
